@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Discovery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+        <div class="nav-container">
+            <a href="index.html" class="logo-container">
+                <img src="./asset/logo.webp" alt="Company Logo" class="logo-img">
+            </a>
+
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="404.html" class="nav-link">Explore Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="404.html" class="nav-link">My Meal Plan</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-container">
+
+            <div class="hero-content">
+                <span class="badge"><i class="fa-solid fa-fire"></i> Recipe of the Day</span>
+                <h1 class="hero-title">Spicy Grilled Chicken <span>& Asparagus</span></h1>
+                <p class="hero-description">
+                    Elevate your culinary skills with our hand-picked recipe. Fresh ingredients, easy-to-follow steps,
+                    and unforgettable flavors right at your home.
+                </p>
+                <div class="hero-buttons">
+                    <a href="404.html" class="btn btn-primary">
+                        Explore Recipes <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="404.html" class="btn btn-outline">
+                        Browse Categories
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="hero-image-wrapper">
+
+                <img src="/asset/rd.webp" alt="Spicy Grilled Chicken" class="hero-image">
+
+
+                <div class="floating-card">
+                    <div class="info-item">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>35 Min</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-star"></i>
+                        <span>4.9</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="premium-categories" id="categories">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Explore by <span>Category</span></h2>
+                <p>Hover over the cards to uncover what's cooking in each category!</p>
+            </div>
+
+            <div class="category-flip-grid">
+
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front" style="background-image: url('/asset/rd1.webp');">
+                            <div class="front-overlay">
+                                <i class="fa-solid fa-mug-hot"></i>
+                                <h3>Breakfast</h3>
+                                <span class="recipe-count">120+ Recipes</span>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Start Your Day</h3>
+                            <p>Energizing morning meals.</p>
+                            <ul class="category-highlights">
+                                <li><i class="fa-solid fa-check"></i> Fluffy Pancakes</li>
+                                <li><i class="fa-solid fa-check"></i> Fresh Smoothies</li>
+                                <li><i class="fa-solid fa-check"></i> Classic Omelets</li>
+                            </ul>
+                            <a href="404.html" class="btn-outline-light">Explore Breakfast</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front" style="background-image: url('/asset/rd2.webp');">
+                            <div class="front-overlay">
+                                <i class="fa-solid fa-bowl-rice"></i>
+                                <h3>Lunch</h3>
+                                <span class="recipe-count">185+ Recipes</span>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Midday Energy</h3>
+                            <p>Delicious & wholesome meals.</p>
+                            <ul class="category-highlights">
+                                <li><i class="fa-solid fa-check"></i> Healthy Salads</li>
+                                <li><i class="fa-solid fa-check"></i> Hearty Bowls</li>
+                                <li><i class="fa-solid fa-check"></i> Quick Wraps</li>
+                            </ul>
+                            <a href="404.html" class="btn-outline-light">Explore Lunch</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front" style="background-image: url('/asset/rd3.webp');">
+                            <div class="front-overlay">
+                                <i class="fa-solid fa-bell-concierge"></i>
+                                <h3>Dinner</h3>
+                                <span class="recipe-count">240+ Recipes</span>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Evening Feasts</h3>
+                            <p>Perfect recipes to wind down.</p>
+                            <ul class="category-highlights">
+                                <li><i class="fa-solid fa-check"></i> Rich Pastas</li>
+                                <li><i class="fa-solid fa-check"></i> Grilled Steaks</li>
+                                <li><i class="fa-solid fa-check"></i> Comfort Soups</li>
+                            </ul>
+                            <a href="404.html" class="btn-outline-light">Explore Dinner</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front" style="background-image: url('/asset/rd4.webp');">
+                            <div class="front-overlay">
+                                <i class="fa-solid fa-ice-cream"></i>
+                                <h3>Desserts</h3>
+                                <span class="recipe-count">95+ Recipes</span>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Sweet Treats</h3>
+                            <p>Mouth-watering dessert collection.</p>
+                            <ul class="category-highlights">
+                                <li><i class="fa-solid fa-check"></i> Lava Cakes</li>
+                                <li><i class="fa-solid fa-check"></i> Fruit Tarts</li>
+                                <li><i class="fa-solid fa-check"></i> Ice Creams</li>
+                            </ul>
+                            <a href="404.html" class="btn-outline-light">Explore Desserts</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="popular-recipes" id="popular">
+        <div class="container">
+            <div class="section-header">
+                <h2>Trending <span>Recipes</span></h2>
+                <p>Our most loved and highly rated recipes of the week.</p>
+            </div>
+
+            <div class="recipe-grid">
+
+                <div class="recipe-card">
+                    <div class="recipe-img-wrapper">
+                        <img src="/asset/rd.webp" alt="Creamy Tomato Pasta">
+                        <span class="recipe-category-badge">Dinner</span>
+                    </div>
+                    <div class="recipe-card-body">
+                        <h3 class="recipe-title">Creamy Tomato Pasta</h3>
+                        <div class="recipe-meta">
+                            <span><i class="fa-regular fa-clock"></i> 25 Mins</span>
+                            <span><i class="fa-solid fa-star"></i> 4.8</span>
+                        </div>
+                        <a href="404.html" class="btn btn-outline recipe-btn">View Recipe</a>
+                    </div>
+                </div>
+
+
+                <div class="recipe-card">
+                    <div class="recipe-img-wrapper">
+                        <img src="/asset/rd5.webp" alt="Fresh Berry Smoothie">
+                        <span class="recipe-category-badge">Breakfast</span>
+                    </div>
+                    <div class="recipe-card-body">
+                        <h3 class="recipe-title">Fresh Berry Smoothie</h3>
+                        <div class="recipe-meta">
+                            <span><i class="fa-regular fa-clock"></i> 10 Mins</span>
+                            <span><i class="fa-solid fa-star"></i> 4.9</span>
+                        </div>
+                        <a href="404.html" class="btn btn-outline recipe-btn">View Recipe</a>
+                    </div>
+                </div>
+
+
+                <div class="recipe-card">
+                    <div class="recipe-img-wrapper">
+                        <img src="/asset/rd4.webp" alt="Chocolate Lava Cake">
+                        <span class="recipe-category-badge">Desserts</span>
+                    </div>
+                    <div class="recipe-card-body">
+                        <h3 class="recipe-title">Chocolate Lava Cake</h3>
+                        <div class="recipe-meta">
+                            <span><i class="fa-regular fa-clock"></i> 40 Mins</span>
+                            <span><i class="fa-solid fa-star"></i> 4.7</span>
+                        </div>
+                        <a href="404.html" class="btn btn-outline recipe-btn">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="view-all-container">
+                <a href="404.html" class="btn btn-primary">View All Recipes <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="premium-journey" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>The Culinary <span>Journey</span></h2>
+                <p>From craving to table in three beautifully simple steps.</p>
+            </div>
+
+            <div class="journey-wrapper">
+
+
+                <div class="journey-row">
+                    <div class="journey-img-col">
+                        <div class="image-backdrop"></div>
+                        <img src="/asset/rd6.webp" alt="Discover Recipes" class="journey-img float-anim-1">
+                    </div>
+                    <div class="journey-text-col">
+                        <span class="giant-number">01</span>
+                        <div class="journey-content">
+                            <span class="step-badge">Step One</span>
+                            <h3>Discover Your Craving</h3>
+                            <p>Browse through our hand-picked, chef-crafted recipes. Filter by your dietary preferences,
+                                cooking time, and ingredients you already have at home.</p>
+                            <ul class="step-features">
+                                <li><i class="fa-solid fa-check-double"></i> 500+ Curated Recipes</li>
+                                <li><i class="fa-solid fa-check-double"></i> Smart Category Filters</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="journey-row reverse">
+                    <div class="journey-img-col">
+                        <div class="image-backdrop secondary-backdrop"></div>
+                        <img src="/asset/rd5.webp" alt="Gather Ingredients" class="journey-img float-anim-2">
+                    </div>
+                    <div class="journey-text-col">
+                        <span class="giant-number">02</span>
+                        <div class="journey-content">
+                            <span class="step-badge">Step Two</span>
+                            <h3>Gather Fresh Ingredients</h3>
+                            <p>Our smart system generates an easy-to-read ingredient list. Check off what you have, and
+                                easily gather the rest from your local farmer's market or store.</p>
+                            <ul class="step-features">
+                                <li><i class="fa-solid fa-check-double"></i> Exact Measurements</li>
+                                <li><i class="fa-solid fa-check-double"></i> Built-in Shopping List</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="journey-row">
+                    <div class="journey-img-col">
+                        <div class="image-backdrop"></div>
+                        <img src="/asset/rd7.webp" alt="Cook and Enjoy" class="journey-img float-anim-1">
+                    </div>
+                    <div class="journey-text-col">
+                        <span class="giant-number">03</span>
+                        <div class="journey-content">
+                            <span class="step-badge">Step Three</span>
+                            <h3>Cook Like a Pro</h3>
+                            <p>Follow our highly detailed, step-by-step cooking instructions. We provide pro tips along
+                                the way so your dish turns out perfectly every single time.</p>
+                            <ul class="step-features">
+                                <li><i class="fa-solid fa-check-double"></i> Step-by-Step Guidance</li>
+                                <li><i class="fa-solid fa-check-double"></i> Chef's Secret Tips</li>
+                            </ul>
+                            <a href="404.html" class="btn btn-primary mt-3">Start Cooking Now <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="premium-special" id="special">
+        <div class="container">
+            <div class="special-layout">
+
+
+                <div class="special-image-box fade-in-left">
+                    <div class="image-border-frame">
+                        <img src="/asset/rd8.webp" alt="Wood-Fired Pizza" class="special-main-img">
+
+
+                        <div class="video-trigger">
+                            <a href="404.html" class="pulse-play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+                            <span>Watch Masterclass</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="special-text-box fade-in-right">
+                    <div class="chef-badge">
+                        <img src="/asset/rd9.webp" alt="Chef Antonio" class="chef-avatar">
+                        <div>
+                            <span class="chef-title">Featured Chef</span>
+                            <h4 class="chef-name">Antonio Rossi</h4>
+                        </div>
+                    </div>
+
+                    <h2 class="special-heading">Authentic <span>Wood-Fired</span> Margherita</h2>
+                    <p class="special-desc">
+                        Dive into the secrets of Naples. Chef Antonio shares his 48-hour fermented dough recipe,
+                        perfectly balanced with San Marzano tomatoes and fresh buffalo mozzarella.
+                    </p>
+
+
+                    <ul class="special-features">
+                        <li><i class="fa-solid fa-check-circle"></i> 48-Hour slow-fermented crust</li>
+                        <li><i class="fa-solid fa-check-circle"></i> Organic San Marzano tomatoes</li>
+                        <li><i class="fa-solid fa-check-circle"></i> Hand-stretched perfection</li>
+                    </ul>
+
+                    <div class="special-actions">
+                        <a href="#" class="btn btn-primary">Get Full Recipe <i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="rating-box">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <span>(4.9/5 from 2k+ reviews)</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="testimonials" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2>Happy <span>Foodies</span></h2>
+                <p>Don't just take our word for it. See what our community is cooking!</p>
+            </div>
+
+            <div class="testimonial-grid">
+
+
+                <div class="review-card fade-up-1">
+                    <i class="fa-solid fa-quote-right quote-watermark"></i>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text">
+                        "This website completely changed how I cook dinner! The step-by-step instructions are so clear,
+                        and the 30-minute meals section is a lifesaver on weekdays."
+                    </p>
+                    <div class="reviewer-info">
+                        <img src="/asset/woman1.webp" alt="Sarah J." class="reviewer-img">
+                        <div class="reviewer-details">
+                            <h4>Sarah Jenkins</h4>
+                            <span><i class="fa-solid fa-circle-check verify-icon"></i> Home Chef</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="review-card fade-up-2">
+                    <i class="fa-solid fa-quote-right quote-watermark"></i>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p class="review-text">
+                        "I love how I can save my favorite recipes to 'My Meal Plan'. The Wood-Fired Pizza recipe by
+                        Chef Antonio turned out exactly like a restaurant pizza!"
+                    </p>
+                    <div class="reviewer-info">
+                        <img src="/asset/man1.webp" alt="Michael T." class="reviewer-img">
+                        <div class="reviewer-details">
+                            <h4>Michael Torres</h4>
+                            <span><i class="fa-solid fa-circle-check verify-icon"></i> Food Enthusiast</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="review-card fade-up-3">
+                    <i class="fa-solid fa-quote-right quote-watermark"></i>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text">
+                        "The category filters make finding dessert recipes so easy. The Chocolate Lava Cake was an
+                        absolute hit at my weekend dinner party. Highly recommended!"
+                    </p>
+                    <div class="reviewer-info">
+                        <img src="/asset/woman2.webp" alt="Emily R." class="reviewer-img">
+                        <div class="reviewer-details">
+                            <h4>Emily Roberts</h4>
+                            <span><i class="fa-solid fa-circle-check verify-icon"></i> Pastry Lover</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="newsletter-section" id="newsletter">
+        <div class="container">
+            <div class="newsletter-box">
+
+                <i class="fa-solid fa-lemon floating-icon icon-1"></i>
+                <i class="fa-solid fa-leaf floating-icon icon-2"></i>
+                <i class="fa-solid fa-pepper-hot floating-icon icon-3"></i>
+
+                <div class="newsletter-content">
+                    <h2>Join Our <span>Culinary Club</span></h2>
+                    <p>Get exclusive weekly recipes, cooking tips, and special chef secrets delivered straight to your
+                        inbox. No spam, just good food!</p>
+
+                    <form class="newsletter-form" id="newsletterForm">
+                        <div class="input-group" id="newsletterInputGroup">
+                            <i class="fa-regular fa-envelope input-icon"></i>
+
+                            <input type="text" id="newsletterEmail" placeholder="Enter your email address...">
+                            <button type="submit" class="btn btn-dark">Subscribe <i
+                                    class="fa-solid fa-paper-plane"></i></button>
+                        </div>
+
+                        <p id="newsletterMessage" class="form-message"></p>
+                    </form>
+                    <span class="spam-notice"><i class="fa-solid fa-lock"></i> Your information is 100% secure with
+                        us.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+
+
+                <div class="footer-col about-col">
+                    <a href="index.html" class="logo-container">
+                        <img src="./asset/logo.webp" alt="Company Logo" class="logo-img">
+                    </a>
+                    <p class="footer-desc">
+                        Your ultimate destination for discovering delicious recipes, sharing culinary experiences, and
+                        mastering the art of home cooking.
+                    </p>
+                </div>
+
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+                        <li><a href="404.html"><i class="fa-solid fa-chevron-right"></i> Explore Recipes</a></li>
+                        <li><a href="404.html"><i class="fa-solid fa-chevron-right"></i> My Meal Plan</a></li>
+                        <li><a href="404.html"><i class="fa-solid fa-chevron-right"></i> How It Works</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="404.html"><i class="fa-solid fa-chevron-right"></i> Breakfast</a></li>
+                        <li><a href="404.html"><i class="fa-solid fa-chevron-right"></i> Lunch</a></li>
+                        <li><a href="404.html"><i class="fa-solid fa-chevron-right"></i> Dinner</a></li>
+                        <li><a href="404.html"><i class="fa-solid fa-chevron-right"></i> Desserts</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Follow Us</h4>
+                    <p class="social-desc">Connect with us on social media for daily recipe updates.</p>
+                    <div class="social-icons">
+                        <a href="404.html" class="social-link" title="Facebook"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a href="404.html" class="social-link" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="404.html" class="social-link" title="Instagram"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="404.html" class="social-link" title="Pinterest"><i
+                                class="fa-brands fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 RecipeHub. All Rights Reserved. Crafted with <i class="fa-solid fa-heart"></i> for food
+                    lovers.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
